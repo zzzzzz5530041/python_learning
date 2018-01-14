@@ -2,7 +2,7 @@ import os
 import ssl
 import time
 import urllib.request
-
+import threadpool;
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import threading
@@ -97,6 +97,9 @@ def getFeedbackImg(id):
             imageUrl = p['url']
             imageUrls.append(imageUrl)
     i = 0;
+    if imageUrls is None:
+        print("no feedback...");
+        os.rmdir(feedbackPath);
     for imgUrl in imageUrls:
         print(imgUrl);
         i += 1;
@@ -138,10 +141,11 @@ def search(keyword,paginationIdentifier):
             if str.isdigit(id):
                 #getProductImg(url);
                 productImgThread = threading.Thread(target=getProductImg,kwargs=dict(url=url),name="load product img thread");
-                feedBackimgThread = threading.Thread(target=getFeedbackImg,kwargs=dict(id=id),name="load feedback img thread");
                 productImgThread.start();
+                feedBackimgThread = threading.Thread(target=getFeedbackImg,kwargs=dict(id=id),name="load feedback img thread");
                 feedBackimgThread.start();
-            #   getFeedbackImg(id);
+
+                #   getFeedbackImg(id);
 
         except:
             continue;
@@ -163,7 +167,7 @@ def url_open(url):
 
 # getFeedbackImg("543890771574")
 keyword="刘钰懿真丝";
-for i in range(10):
+for i in range(4):
     searchThread = threading.Thread(target=search,kwargs=dict(keyword=keyword,paginationIdentifier=i*44));
     searchThread.start()
 
