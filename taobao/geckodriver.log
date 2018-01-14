@@ -1,0 +1,439 @@
+1515234830445	geckodriver	INFO	geckodriver 0.19.1
+1515234830454	geckodriver	INFO	Listening on 127.0.0.1:59904
+1515234831589	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.4ueyY7QjX2MH"
+1515234834131	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:33:55.049 plugin-container[12336:570632] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515234835436	Marionette	INFO	Listening on port 59919
+1515234841783	geckodriver	INFO	geckodriver 0.19.1
+1515234841787	geckodriver	INFO	Listening on 127.0.0.1:59984
+1515234842842	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.qsFMPUfP7OJe"
+1515234843348	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:34:04.231 plugin-container[12342:570925] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f2f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515234844951	Marionette	INFO	Listening on port 59999
+1515234845045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515234845103	Marionette	DEBUG	Register listener.js for window 2147483649
+1515234845157	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515234845581	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515234845582	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515234845597	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515234845614	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+2018-01-06 18:34:13.904 plugin-container[12345:571095] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+2018-01-06 18:34:21.391 plugin-container[12348:571238] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1515234897417	geckodriver	INFO	geckodriver 0.19.1
+1515234897421	geckodriver	INFO	Listening on 127.0.0.1:60299
+1515234898477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.R0kGzQTVDqp8"
+1515234899082	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:34:59.851 plugin-container[12364:571818] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515234900563	Marionette	INFO	Listening on port 60314
+1515234900602	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515234900661	Marionette	DEBUG	Register listener.js for window 2147483649
+1515234900738	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515234902494	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515234902494	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1515234903624	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1515234903883	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1515234913881	geckodriver	INFO	geckodriver 0.19.1
+1515234913884	geckodriver	INFO	Listening on 127.0.0.1:60452
+1515234914950	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.GsWaSYgHjFuq"
+1515234915411	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:35:16.220 plugin-container[12371:572198] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515234916695	Marionette	INFO	Listening on port 60467
+1515234916733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515234916788	Marionette	DEBUG	Register listener.js for window 2147483649
+1515234916821	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515234917166	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515234917167	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515234917186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515234917204	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515234940105	geckodriver	INFO	geckodriver 0.19.1
+1515234940119	geckodriver	INFO	Listening on 127.0.0.1:60679
+1515234941158	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.VVsbCiwMAoCh"
+1515234941672	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:35:42.487 plugin-container[12380:572759] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515234942986	Marionette	INFO	Listening on port 60694
+1515234943063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515234943113	Marionette	DEBUG	Register listener.js for window 2147483649
+1515234943126	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515234943498	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515234943498	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515234943508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515234943522	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+2018-01-06 18:35:48.660 plugin-container[12381:572896] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+2018-01-06 18:39:06.989 plugin-container[12399:574450] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-06 18:41:55.591 plugin-container[12467:576972] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-06 18:41:58.160 plugin-container[12469:577087] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515235483697	geckodriver	INFO	geckodriver 0.19.1
+1515235483708	geckodriver	INFO	Listening on 127.0.0.1:63536
+1515235484749	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.P7ClyGRyG7MB"
+1515235485473	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:44:46.333 plugin-container[12543:579370] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515235486835	Marionette	INFO	Listening on port 63555
+1515235486845	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515235486898	Marionette	DEBUG	Register listener.js for window 2147483649
+1515235486920	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515235487282	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515235487282	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515235487290	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515235487302	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+2018-01-06 18:45:01.956 plugin-container[12544:579594] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa537, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-06 18:46:05.465 plugin-container[12550:580244] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 8112: TypeError: event.originalTarget.getAttribute is not a function
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 8119: TypeError: event.originalTarget.getAttribute is not a function
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515235578038	geckodriver	INFO	geckodriver 0.19.1
+1515235578046	geckodriver	INFO	Listening on 127.0.0.1:64083
+1515235579135	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.yiIAxGXE3Vj6"
+1515235579684	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:46:20.433 plugin-container[12557:580619] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515235581168	Marionette	INFO	Listening on port 64098
+1515235581261	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515235581316	Marionette	DEBUG	Register listener.js for window 2147483649
+1515235581357	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515235581712	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515235581712	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515235581727	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515235581744	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515235703391	geckodriver	INFO	geckodriver 0.19.1
+1515235703409	geckodriver	INFO	Listening on 127.0.0.1:64882
+1515235704460	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.QbvKSNYMFCZ8"
+1515235704983	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:48:25.951 plugin-container[12566:581750] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515235706565	Marionette	INFO	Listening on port 64897
+1515235706580	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515235706647	Marionette	DEBUG	Register listener.js for window 2147483649
+1515235715513	geckodriver	INFO	geckodriver 0.19.1
+1515235715517	geckodriver	INFO	Listening on 127.0.0.1:65002
+1515235716567	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.1E8QtynpX7kI"
+1515235717015	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:48:37.812 plugin-container[12574:582064] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515235718552	Marionette	INFO	Listening on port 65017
+1515235718627	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515235718676	Marionette	DEBUG	Register listener.js for window 2147483649
+1515235718703	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515235720628	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515235720629	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1515235721840	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1515235721997	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515235768783	geckodriver	INFO	geckodriver 0.19.1
+1515235768792	geckodriver	INFO	Listening on 127.0.0.1:65369
+1515235769844	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.2JEaZHmz664Q"
+1515235770433	Marionette	INFO	Enabled via --marionette
+2018-01-06 18:49:31.353 plugin-container[12583:582747] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515235771875	Marionette	INFO	Listening on port 65384
+1515235771986	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515235772034	Marionette	DEBUG	Register listener.js for window 2147483649
+1515235772047	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515235772662	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515235772662	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515235772669	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=zhens&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+1515235772682	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=zhens&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1515237275680	geckodriver	INFO	geckodriver 0.19.1
+1515237275691	geckodriver	INFO	Listening on 127.0.0.1:49461
+1515237276725	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.rwY3D1oWzwhm"
+1515237277241	Marionette	INFO	Enabled via --marionette
+2018-01-06 19:14:38.207 plugin-container[12633:591012] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515237279019	Marionette	INFO	Listening on port 49472
+1515237279050	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515237279108	Marionette	DEBUG	Register listener.js for window 2147483649
+1515237279136	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515237279723	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515237279724	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515237280458	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515237281264	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515237294421	geckodriver	INFO	geckodriver 0.19.1
+1515237294425	geckodriver	INFO	Listening on 127.0.0.1:49592
+1515237295497	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.hCJeOt4FVpUE"
+1515237296093	Marionette	INFO	Enabled via --marionette
+2018-01-06 19:14:57.238 plugin-container[12642:591409] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515237297929	Marionette	INFO	Listening on port 49603
+1515237298002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515237298053	Marionette	DEBUG	Register listener.js for window 2147483649
+1515237298096	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515237298629	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515237298630	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515237299543	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515237300489	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515237300557	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515237300850	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515237300851	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515237301015	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515237301489	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515237303604	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1515237321060	geckodriver	INFO	geckodriver 0.19.1
+1515237321064	geckodriver	INFO	Listening on 127.0.0.1:49743
+1515237322120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.DiN8MRyhvOwE"
+1515237322587	Marionette	INFO	Enabled via --marionette
+2018-01-06 19:15:23.350 plugin-container[12649:591941] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515237323761	Marionette	INFO	Listening on port 49755
+1515237323797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515237323857	Marionette	DEBUG	Register listener.js for window 2147483649
+1515237323874	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515237324675	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515237324675	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515237325679	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515237327211	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515237327224	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515237327491	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515237327493	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515237327733	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515237327733	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1515237328120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515237332939	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515237358555	geckodriver	INFO	geckodriver 0.19.1
+1515237358561	geckodriver	INFO	Listening on 127.0.0.1:49874
+1515237359625	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.osHxjynvdIIi"
+1515237360010	Marionette	INFO	Enabled via --marionette
+2018-01-06 19:16:00.855 plugin-container[12664:592468] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515237361260	Marionette	INFO	Listening on port 49885
+1515237361313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515237361359	Marionette	DEBUG	Register listener.js for window 2147483649
+1515237361374	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515237361927	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515237361928	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515237362773	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515237363497	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515237363508	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515237363740	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515237363741	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515237363955	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515237364172	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515237371672	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515237408883	geckodriver	INFO	geckodriver 0.19.1
+1515237408892	geckodriver	INFO	Listening on 127.0.0.1:50008
+1515237409935	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.dLClLkPgNtuL"
+1515237410431	Marionette	INFO	Enabled via --marionette
+2018-01-06 19:16:51.349 plugin-container[12673:593074] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515237411879	Marionette	INFO	Listening on port 50019
+1515237411988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515237412039	Marionette	DEBUG	Register listener.js for window 2147483649
+1515237412066	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515237413126	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515237413126	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515237413852	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515237415853	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515237415878	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515237416106	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515237416110	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515237416247	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515237416247	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1515237416436	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515237418147	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+2018-01-06 19:18:23.052 plugin-container[12686:594079] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f27, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-01-06 19:26:46.780 plugin-container[12730:597737] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa033, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515238032347	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1515238037236	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1515238039030	addons.webextension.{62c1d54c-f371-4d89-8e07-69e67c8ebea8}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+2018-01-06 19:27:38.449 plugin-container[12738:598332] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 290: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+JavaScript warning: resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 63ms; unable to cache asm.js in synchronous scripts; try loading asm.js via <script async> or createElement('script'))
+2018-01-06 19:29:41.735 plugin-container[12741:599263] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
+JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
+JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
+JavaScript error: https://cookiemapping.wrating.com/link.html, line 3: NS_ERROR_FAILURE: 
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.2/??xtemplate-min.js,xtemplate/compiler-min.js?t=1_2013072520131122.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+2018-01-06 19:52:42.755 plugin-container[12864:611844] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+1515241003765	geckodriver	INFO	geckodriver 0.19.1
+1515241003775	geckodriver	INFO	Listening on 127.0.0.1:51255
+1515241004840	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.rwUyHC3rcYRp"
+1515241005328	Marionette	INFO	Enabled via --marionette
+2018-01-06 20:16:46.126 plugin-container[13059:623193] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515241006594	Marionette	INFO	Listening on port 51270
+1515241006628	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515241006680	Marionette	DEBUG	Register listener.js for window 2147483649
+1515241006706	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515241007291	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515241007291	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515241008629	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515241009725	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515241009741	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515241009970	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515241009970	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515241010133	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515241010422	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515241016428	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515241060670	geckodriver	INFO	geckodriver 0.19.1
+1515241060680	geckodriver	INFO	Listening on 127.0.0.1:51624
+1515241061778	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.U6tPoBFXuFFF"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1515241062856	Marionette	INFO	Enabled via --marionette
+2018-01-06 20:17:43.813 plugin-container[13071:623929] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515241064232	Marionette	INFO	Listening on port 51639
+1515241064292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515241064346	Marionette	DEBUG	Register listener.js for window 2147483649
+1515241064374	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515241064918	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515241064918	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515241065701	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515241066857	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515241066873	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515241067114	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515241067116	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515241067456	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515241067693	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515241071675	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515243536493	geckodriver	INFO	geckodriver 0.19.1
+1515243536503	geckodriver	INFO	Listening on 127.0.0.1:62357
+1515243537560	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.xD7VBYbLcH0t"
+1515243538072	Marionette	INFO	Enabled via --marionette
+2018-01-06 20:58:58.898 plugin-container[13130:636965] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515243539456	Marionette	INFO	Listening on port 62372
+1515243539473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515243539532	Marionette	DEBUG	Register listener.js for window 2147483649
+1515243539557	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515243540192	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515243540193	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515243540803	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515243541995	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515243542002	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515243542296	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515243542296	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515243542391	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515243542770	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515243544800	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+1515243669948	geckodriver	INFO	geckodriver 0.19.1
+1515243669955	geckodriver	INFO	Listening on 127.0.0.1:63140
+1515243671009	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/dc/4wq16ld513ndvjycqwt7wgyh0000gn/T/rust_mozprofile.RUK4AbZhwmng"
+1515243671446	Marionette	INFO	Enabled via --marionette
+2018-01-06 21:01:12.269 plugin-container[13142:638036] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515243672710	Marionette	INFO	Listening on port 63155
+1515243672796	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515243672850	Marionette	DEBUG	Register listener.js for window 2147483649
+1515243672867	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515243673437	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515243673437	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515243674184	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.taobao.com/"
+1515243675134	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.taobao.com/"
+1515243675148	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.taobao.com/"
+1515243675380	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.taobao.com/"
+1515243675381	Marionette	DEBUG	Received DOM event "unload" for "https://www.taobao.com/"
+1515243675876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1515243676072	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+1515243678490	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.taobao.com/search?q=%E8%A5%BF%E7%93%9C"

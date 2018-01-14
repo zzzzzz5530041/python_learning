@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data_structure_algorithm/data_structure_algorithm.iml" filepath="$PROJECT_DIR$/data_structure_algorithm/data_structure_algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funny/funny.iml" filepath="$PROJECT_DIR$/funny/funny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_world/hello_world.iml" filepath="$PROJECT_DIR$/hello_world/hello_world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minecraft/minecraft.iml" filepath="$PROJECT_DIR$/minecraft/minecraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-media/multi-media.iml" filepath="$PROJECT_DIR$/multi-media/multi-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numpy/numpy.iml" filepath="$PROJECT_DIR$/numpy/numpy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop/oop.iml" filepath="$PROJECT_DIR$/oop/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/painting/painting.iml" filepath="$PROJECT_DIR$/painting/painting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python_learning.iml" filepath="$PROJECT_DIR$/python_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solar/solar.iml" filepath="$PROJECT_DIR$/solar/solar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taobao/taobao.iml" filepath="$PROJECT_DIR$/taobao/taobao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/tensorflow.iml" filepath="$PROJECT_DIR$/tensorflow/tensorflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youdao/youdao.iml" filepath="$PROJECT_DIR$/youdao/youdao.iml" />
+    </modules>
+  </component>
+</project>
