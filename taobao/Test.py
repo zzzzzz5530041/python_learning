@@ -5,14 +5,17 @@ import urllib.request
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
-
+import threading
 ssl._create_default_https_context = ssl._create_unverified_context
 import re
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
-feedbackPath='';
+
+feedbackPath = '';
+
+IMAGE_ROOT_PATH="/Users/zhuyang/Documents/zhuyang/tb/";
 def getProductList(url):  # 传入搜索URL
     res = urllib.request.urlopen(url).read();
 
@@ -21,7 +24,7 @@ def getProductImg(url):
     htmlContent = urllib.request.urlopen(url).read();
     soup = BeautifulSoup(htmlContent, "html.parser");
     title = soup.title.string
-    path = "/Users/zhuyang/projects/python_learning/" + title;
+    path = IMAGE_ROOT_PATH + title;
     global feedbackPath;
 
     feedbackPath = path + "/feedback"
@@ -68,7 +71,39 @@ def downLoadImg(images, path):
         except:
             continue;
 
-
+def getFeedbackImg(id):
+    print("feedbackPath" + feedbackPath)
+    imageUrls = [];
+    url = "https://rate.taobao.com/feedRateList.htm?auctionNumId=" + id + "&currentPageNum=1&pageSize=20&rateType=3";
+    content = url_open(url);
+    content = content.strip().strip('()');  # 数据格式:({..}),去掉两边的括号,处理json
+    json_dic = json.loads(content);
+    comments = json_dic['comments'];
+    for c in comments:
+        appendList = c['appendList'];
+        for a in appendList:
+            photos = a['photos'];
+            for p in photos:
+                imageUrl = p['url']
+                imageUrls.append(imageUrl)
+        append = c['append'];
+        for a in appendList:
+            photos = a['photos'];
+            for p in photos:
+                imageUrl = p['url']
+                imageUrls.append(imageUrl)
+        photosNodes = c['photos'];
+        for p in photosNodes:
+            imageUrl = p['url']
+            imageUrls.append(imageUrl)
+    i = 0;
+    for imgUrl in imageUrls:
+        print(imgUrl);
+        i += 1;
+        try:
+            urllib.request.urlretrieve("http:" + imgUrl, feedbackPath + "/" + str(i) + str(imgUrl)[-5:]);
+        except:
+            continue;
 
 def search(keyword):
     urls = [];
@@ -100,8 +135,12 @@ def search(keyword):
         try:
             id = url[url.find("=") + 1:url.find("&")];
             if str.isdigit(id):
-                getProductImg(url)
-                getFeedbackImg(id);
+                #getProductImg(url);
+                productImgThread = threading.Thread(target=getProductImg,kwargs=dict(url=url),name="load product img thread");
+                feedBackimgThread = threading.Thread(target=getFeedbackImg,kwargs=dict(id=id),name="load feedback img thread");
+                productImgThread.start();
+                feedBackimgThread.start();
+            #   getFeedbackImg(id);
 
         except:
             continue;
@@ -118,43 +157,11 @@ def url_open(url):
     return data
 
 
-def getFeedbackImg(id):
-    print("feedbackPath"+feedbackPath)
-    imageUrls=[];
-    url = "https://rate.taobao.com/feedRateList.htm?auctionNumId=" + id + "&currentPageNum=1&pageSize=20&rateType=3";
-    content = url_open(url);
-    content = content.strip().strip('()');#数据格式:({..}),去掉两边的括号,处理json
-    json_dic = json.loads(content);
-    comments = json_dic['comments'];
-    for c in comments:
-        appendList = c['appendList'];
-        for a in appendList:
-            photos = a['photos'];
-            for p in photos:
-                imageUrl = p['url']
-                imageUrls.append(imageUrl)
-        append = c['append'];
-        for a in appendList:
-            photos = a['photos'];
-            for p in photos:
-                imageUrl = p['url']
-                imageUrls.append(imageUrl)
-        photosNodes = c['photos'];
-        for p in photosNodes:
-            imageUrl = p['url']
-            imageUrls.append(imageUrl)
-    i=0;
-    for imgUrl in imageUrls:
-        print(imgUrl);
-        i += 1;
-        try:
-            urllib.request.urlretrieve("http:"+imgUrl, feedbackPath + "/" + str(i) + str(imgUrl)[-5:]);
-        except:
-            continue;
 
 
-#getFeedbackImg("543890771574")
-print(search('欧恰恰'));
+
+# getFeedbackImg("543890771574")
+print(search('刘钰懿'));
 
 # getProductImg("https://item.taobao.com/item.htm?spm=a230r.1.14.60.ba33c737iXaSr&id=543890771574&ns=1&abbucket=6#detail")
 # getFeedbackImg("https://rate.taobao.com/feedRateList.htm?auctionNumId=543890771574&currentPageNum=1&pageSize=20&rateType=3")
