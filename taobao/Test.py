@@ -6,6 +6,7 @@ import threadpool;
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import threading
+
 ssl._create_default_https_context = ssl._create_unverified_context
 import re
 from selenium.webdriver.common.by import By
@@ -15,7 +16,7 @@ import json
 
 feedbackPath = '';
 
-IMAGE_ROOT_PATH="/Users/zhuyang/Documents/zhuyang/tb/";
+
 def getProductList(url):  # 传入搜索URL
     res = urllib.request.urlopen(url).read();
 
@@ -24,7 +25,7 @@ def getProductImg(url):
     htmlContent = urllib.request.urlopen(url).read();
     soup = BeautifulSoup(htmlContent, "html.parser");
     title = soup.title.string
-    path = IMAGE_ROOT_PATH + title;
+    path = NEW_IMAGE_ROOT_PATH + "/" + title;
     global feedbackPath;
 
     feedbackPath = path + "/feedback"
@@ -44,7 +45,8 @@ def getProductImg(url):
         if len(desurls):
             descUrl = desurls[0];
             print(descUrl)
-            parseDesc("http://" + descUrl, path)
+            #不爬取商户图片
+    ##      parseDesc("http://" + descUrl, path)
         else:
             continue;
 
@@ -70,6 +72,7 @@ def downLoadImg(images, path):
             urllib.request.urlretrieve(img, path + "/" + str(i) + str(img)[-5:]);
         except:
             continue;
+
 
 def getFeedbackImg(id):
     print("feedbackPath" + feedbackPath)
@@ -104,14 +107,20 @@ def getFeedbackImg(id):
         print(imgUrl);
         i += 1;
         try:
-            urllib.request.urlretrieve("http:" + imgUrl, feedbackPath + "/" + str(i) + str(imgUrl)[-5:]);
+            print("-------------"+NEW_IMAGE_ROOT_PATH);
+            if os.path.exists(os.path.join(NEW_IMAGE_ROOT_PATH,"feedback")) ==False:
+                os.mkdir(os.path.join(NEW_IMAGE_ROOT_PATH,"feedback"))
+
+            urllib.request.urlretrieve("http:" + imgUrl, NEW_IMAGE_ROOT_PATH + "/feedback/" + str(i) + str(imgUrl)[-5:]);
+
         except:
             continue;
 
-def search(keyword,paginationIdentifier):
+
+def search(keyword, paginationIdentifier):
     urls = [];
     keywords = urllib.request.quote(keyword)
-    url = "https://s.taobao.com/search?q=" + keywords+"&s="+str(paginationIdentifier)
+    url = "https://s.taobao.com/search?q=" + keywords + "&s=" + str(paginationIdentifier) + "&sort=sale-desc"
     print(url)
     # url="https://s.taobao.com/search?q="+keywords+"&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&bcoffset=4&ntoffset=4&p4ppushleft=1%2C48&s="+str(i*44)
     htmlContent = url_open(url);
@@ -139,10 +148,12 @@ def search(keyword,paginationIdentifier):
         try:
             id = url[url.find("=") + 1:url.find("&")];
             if str.isdigit(id):
-                #getProductImg(url);
-                productImgThread = threading.Thread(target=getProductImg,kwargs=dict(url=url),name="load product img thread");
+                # getProductImg(url);
+                productImgThread = threading.Thread(target=getProductImg, kwargs=dict(url=url),
+                                                    name="load product img thread");
                 productImgThread.start();
-                feedBackimgThread = threading.Thread(target=getFeedbackImg,kwargs=dict(id=id),name="load feedback img thread");
+                feedBackimgThread = threading.Thread(target=getFeedbackImg, kwargs=dict(id=id),
+                                                     name="load feedback img thread");
                 feedBackimgThread.start();
 
                 #   getFeedbackImg(id);
@@ -163,16 +174,21 @@ def url_open(url):
 
 
 
-
-
 # getFeedbackImg("543890771574")
-keyword="刘钰懿真丝";
-for i in range(4):
-    searchThread = threading.Thread(target=search,kwargs=dict(keyword=keyword,paginationIdentifier=i*44));
+keyword = "he";
+IMAGE_ROOT_PATH = "/Users/zhuyang/Documents/zhuyang/tb/";
+NEW_IMAGE_ROOT_PATH = os.path.join(IMAGE_ROOT_PATH, keyword);
+if os.path.exists(NEW_IMAGE_ROOT_PATH) == False:
+    os.mkdir(NEW_IMAGE_ROOT_PATH)
+for i in range(5,20):
+    searchThread = threading.Thread(target=search, kwargs=dict(keyword=keyword, paginationIdentifier=i * 44));
     searchThread.start()
+
 
 
 # getProductImg("https://item.taobao.com/item.htm?spm=a230r.1.14.60.ba33c737iXaSr&id=543890771574&ns=1&abbucket=6#detail")
 # getFeedbackImg("https://rate.taobao.com/feedRateList.htm?auctionNumId=543890771574&currentPageNum=1&pageSize=20&rateType=3")
 # getProductList( "https://item.taobao.com/item.htm?id=39595400262")
 # https://rate.taobao.com/feedRateList.htm?auctionNumId=543890771574&currentPageNum=1&pageSize=20&rateType=3 评论
+
+#https://s.taobao.com/search?type=similar&app=i2i&rec_type=1&nid=543890771574 like
