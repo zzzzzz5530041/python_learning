@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/taobao/taobao.iml" filepath="$PROJECT_DIR$/taobao/taobao.iml" />
       <module fileurl="file://$PROJECT_DIR$/tensorflow/tensorflow.iml" filepath="$PROJECT_DIR$/tensorflow/tensorflow.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weibo/weibo.iml" filepath="$PROJECT_DIR$/weibo/weibo.iml" />
       <module fileurl="file://$PROJECT_DIR$/youdao/youdao.iml" filepath="$PROJECT_DIR$/youdao/youdao.iml" />
     </modules>
   </component>
