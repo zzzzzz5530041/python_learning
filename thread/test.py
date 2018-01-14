@@ -35,7 +35,10 @@ def go(x, y):
     for i in range(x, y):
         print(i);
 
-
+def printNum():
+    for i in range(20):
+        print(i)
+printNum()
 t6 = threading.Thread(target=hello,kwargs=dict(name="hello"));
 t6.start()
 #t5 = threading.Thread(target=go, args=(10, 15), name="t5");

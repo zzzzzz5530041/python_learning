@@ -105,10 +105,11 @@ def getFeedbackImg(id):
         except:
             continue;
 
-def search(keyword):
+def search(keyword,paginationIdentifier):
     urls = [];
     keywords = urllib.request.quote(keyword)
-    url = "https://s.taobao.com/search?q=" + keywords
+    url = "https://s.taobao.com/search?q=" + keywords+"&s="+str(paginationIdentifier)
+    print(url)
     # url="https://s.taobao.com/search?q="+keywords+"&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&bcoffset=4&ntoffset=4&p4ppushleft=1%2C48&s="+str(i*44)
     htmlContent = url_open(url);
     driver = webdriver.PhantomJS(executable_path='/etc/phantomjs-2.1.1-macosx/bin/phantomjs');
@@ -161,7 +162,11 @@ def url_open(url):
 
 
 # getFeedbackImg("543890771574")
-print(search('刘钰懿'));
+keyword="刘钰懿真丝";
+for i in range(10):
+    searchThread = threading.Thread(target=search,kwargs=dict(keyword=keyword,paginationIdentifier=i*44));
+    searchThread.start()
+
 
 # getProductImg("https://item.taobao.com/item.htm?spm=a230r.1.14.60.ba33c737iXaSr&id=543890771574&ns=1&abbucket=6#detail")
 # getFeedbackImg("https://rate.taobao.com/feedRateList.htm?auctionNumId=543890771574&currentPageNum=1&pageSize=20&rateType=3")
