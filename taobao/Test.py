@@ -46,7 +46,7 @@ def getProductImg(url):
             descUrl = desurls[0];
             print(descUrl)
             #不爬取商户图片
-    ##      parseDesc("http://" + descUrl, path)
+            parseDesc("http://" + descUrl, path)
         else:
             continue;
 
@@ -175,7 +175,7 @@ def url_open(url):
 
 
 # getFeedbackImg("543890771574")
-keyword = "he";
+keyword = "欧恰恰夏装";
 IMAGE_ROOT_PATH = "/Users/zhuyang/Documents/zhuyang/tb/";
 NEW_IMAGE_ROOT_PATH = os.path.join(IMAGE_ROOT_PATH, keyword);
 if os.path.exists(NEW_IMAGE_ROOT_PATH) == False:
