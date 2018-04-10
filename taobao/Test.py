@@ -175,7 +175,7 @@ def url_open(url):
 
 
 # getFeedbackImg("543890771574")
-keyword = "欧恰恰夏装";
+keyword = "波西米亚雪纺";
 IMAGE_ROOT_PATH = "/Users/zhuyang/Documents/zhuyang/tb/";
 NEW_IMAGE_ROOT_PATH = os.path.join(IMAGE_ROOT_PATH, keyword);
 if os.path.exists(NEW_IMAGE_ROOT_PATH) == False:
